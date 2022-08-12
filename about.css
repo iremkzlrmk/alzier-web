@@ -580,9 +580,9 @@ h2 {
     }
 
     .footer {
-        margin-top: 80vh;
-        /* padding-top: 1vh; */
-        height: 20vh;
+        margin-top: 60vh;
+        padding-top: 1vh;
+        height: 40vh;
         z-index: 3;
     }
     
