@@ -77,7 +77,7 @@ input[type="checkbox"],
   top: 30%;
   height: 50px;
   width: 260px;
-  background: center / cover no-repeat url("images/Logo_beyaz.png");
+  background: center / cover no-repeat url("images/logo.png");
 }
 
 .backdrop {
@@ -120,7 +120,7 @@ input[type="checkbox"],
   width: 90%;
   margin-top: 9vh;
   margin-left: 30vw;
-  background: center / cover no-repeat url("images/MaınImg_zeminsiz.png");
+  background: center / cover no-repeat url("images/woman.png");
 }
 
 .page1-text {
@@ -160,7 +160,7 @@ input[type="checkbox"],
   position: relative;
   width: 8vw;
   height: 8vw; 
-  background:url(./images/OK_ANASAYFA.png);
+  background:url(./images/detailed_button.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -198,7 +198,7 @@ input[type="checkbox"],
 }
 
 .page2-image {
-  background: center / cover no-repeat url("images/INS.png");
+  background: center / cover no-repeat url("images/people.png");
   height: 100%;
   width: 100%;
   margin-top: 7vh;
@@ -245,7 +245,7 @@ input[type="checkbox"],
   position: relative;
   width: 3vw;
   height: 3vw; 
-  background:url(./images/OK\ BUTON.png);
+  background:url(./images/basic_button.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -313,7 +313,7 @@ input[type="checkbox"],
   position: relative;
   width: 3vw;
   height: 3vw; 
-  background:url(./images/OK\ BUTON.png);
+  background:url(./images/basic_button.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -330,7 +330,7 @@ input[type="checkbox"],
 }
 
 .page4-image {
-  background: url("images/dünya_kırpık.png");
+  background: url("images/world_cropped.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -384,19 +384,19 @@ input[type="checkbox"],
   position: relative;
   width: 3vw;
   height: 3vw; 
-  background:url(./images/OK\ BUTON.png);
+  background:url(./images/basic_button.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 
-hr {
+/* hr {
   position: relative;
   border: 3px solid #d66853;
   right: 0;
   box-shadow: 2px 5px 10px rgba(214, 105, 83, 0.282);
-}
+} */
 
 .page4-horizontal {
   width: 10rem;
@@ -455,7 +455,7 @@ hr {
   position: relative;
   width: 3.5vw;
   height: 3.5vw; 
-  background:url(./images/OK\ BUTON.png);
+  background:url(./images/basic_button.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -496,7 +496,7 @@ hr {
   height: 28px; 
   width: 147px; 
   top: 3vh;
-  background: center / cover no-repeat url("images/Logo_beyaz.png");
+  background: center / cover no-repeat url("images/logo.png");
 }
 
 .footer-line{
@@ -657,7 +657,7 @@ h2 {
     margin-left: 5vw;
     height: 85vh;
     width: 80vw;
-    background:url(images/yeşiluzaylı.png);
+    background:url(images/gradient.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -837,7 +837,7 @@ h2 {
     height: 20px; 
     width: 105px; 
     top: 3vh;
-    background: center / cover no-repeat url("images/Logo_beyaz.png");
+    background: center / cover no-repeat url("images/logo.png");
   }
 
   h2 {

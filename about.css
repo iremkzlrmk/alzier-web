@@ -82,7 +82,7 @@ input[type="checkbox"],
     top: 30%;
     height: 50px;
     width: 260px;
-    background: center / cover no-repeat url("images/Logo_beyaz.png");
+    background: center / cover no-repeat url("images/logo.png");
 }
 
 .backdrop {
@@ -111,7 +111,7 @@ input[type="checkbox"],
 .page1-image {
     height: 100%;
     width: 90%;
-    background: center / cover no-repeat url("images/yeşiluzaylı.png");
+    background: center / cover no-repeat url("images/gradient.png");
     margin-top: 9vh;
     margin-left: 30vw;
 }
@@ -313,7 +313,7 @@ hr {
     height: 28px; 
     width: 147px; 
     top: 3vh;
-    background: center / cover no-repeat url("images/Logo_beyaz.png");
+    background: center / cover no-repeat url("images/logo.png");
   }
 
 .footer-line{
@@ -593,7 +593,7 @@ h2 {
         height: 20px; 
         width: 105px; 
         top: 3vh;
-        background: center / cover no-repeat url("images/Logo_beyaz.png");
+        background: center / cover no-repeat url("images/logo.png");
       }
 
     h2 {
