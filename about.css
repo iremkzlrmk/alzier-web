@@ -555,6 +555,7 @@ h2 {
 
 
     .page3-text{
+        margin-top: -30vh;
         width: 90vw;
     }
 
@@ -580,7 +581,7 @@ h2 {
     }
 
     .footer {
-        margin-top: 60vh;
+        /* margin-top: 60vh; */
         padding-top: 1vh;
         height: 40vh;
         z-index: 3;
