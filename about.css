@@ -127,10 +127,15 @@ input[type="checkbox"],
     z-index: 3;
 }
 
-.paragraphs {
+.tied-paragraphs {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 0vw;
+}
+
+.paragraphs{
     display: flex;
     flex-flow: row wrap;
-    margin-left: 0vw;
 }
 
 .page1-text h2 {
@@ -254,9 +259,38 @@ input[type="checkbox"],
 .page3-line {
     position: relative;
     border-left: 1px solid #ffffff;
-    height: 35vh;
+    height: 30vh;
     padding-top: 2vw;
     margin-right: 2vw;
+    margin-top: 1vh;
+}
+
+.icon1{
+    position: relative;
+    width: 40px;
+    height: 60px; 
+    background:url(./images/lock_white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: -1.3vw;
+}
+
+.icon2{
+    position: relative;
+    width: 67px;
+    height: 63px; 
+    background:url(./images/recycle_white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: -2.3vw;
+}
+
+.line-icon{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: -5vh;
 }
 
 .page3-text h2 {
@@ -266,9 +300,17 @@ input[type="checkbox"],
     margin-bottom: -0.5rem;
 }
 
-.line-paragraph {
+
+.line-paragraph1 {
     display: flex;
-    margin-right: 6vh;
+    margin-right: 3vw;
+    margin-top: 5vh;
+}
+
+.line-paragraph2 {
+    display: flex;
+    margin-right: 3vw;
+    margin-top: 5vh;
 }
 
 .page3-text p {
@@ -278,12 +320,12 @@ input[type="checkbox"],
     line-height: 1.5rem;
 }
 
-hr {
+/* hr {
     position: relative;
     border: 3px solid #d66853;
     right: 0;
     box-shadow: 2px 5px 10px rgba(214, 105, 83, 0.282);
-}
+} */
 
 .page3-horizontal {
     width: 10rem;
@@ -508,13 +550,15 @@ h2 {
 
     .page1-text h3 {
         font-size: 3vw;
+        margin-bottom: 10px;
     }
 
     .page1-text p {
-        width: 35vw;
-        margin-left: 0%;
+        width: 80vw;
+        /* margin-left: 0%; */
         font-size: 1.8vh;
         line-height: 2.5vw;
+        margin-bottom: 3vh;
     }
 
     /* -------------------------------- */
@@ -525,7 +569,7 @@ h2 {
     .page2-text {
         position: absolute;
         /* margin-left: 80%; */
-        margin-top: 5vh;
+        margin-top: 1vh;
         width: 90vw;
         min-height: 120vh;
         color: #000000;
@@ -543,6 +587,7 @@ h2 {
 
     .page2-text p{
         width: 40vw;
+        width: 80vw;
         /* width: auto;   if u wanna stack them on top of each other */ 
         font-size: 2vw;
         line-height: 3vw;
@@ -559,8 +604,20 @@ h2 {
         width: 90vw;
     }
 
+    .icon1{
+        width: 4vw;
+        height: 6vw;
+        margin-left: -2vw;
+    }
+
+    .icon2{
+        width: 6.4vw;
+        height: 6vw;
+        margin-left: -3vw;
+    }
+
     .page3-line{
-        height: 35vw;
+        height: 19vw;
     }
 
     .page3-text h2{
@@ -570,20 +627,28 @@ h2 {
         margin-bottom: 1vw;
     }
 
-    .line-paragraph{
-        margin-right: 6vw;
+    .line-paragraph1{
+        display: flex;
+        margin-right: 2vw;
+        margin-top: -10vh;
+    }
+
+    .line-paragraph2{
+        display: flex;
+        margin-right: 2vw;
+        margin-top: -30vh;
     }
 
     .page3-text p{
-        width: 35vw;
+        width: 80vw;
         font-size: 1.6vw;
         line-height: 2vw;
     }
 
     .footer {
-        /* margin-top: 60vh; */
+        margin-top: 70vh;
         padding-top: 1vh;
-        height: 40vh;
+        height: 30vh;
         z-index: 3;
     }
     

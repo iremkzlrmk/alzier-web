@@ -262,11 +262,11 @@ input[type="checkbox"],
 
 .page3-image {
   position: relative;
-  height: 30vw;
-  width: 30vw;
-  margin-top: 10vh;
-  margin-left: 35vw;
-  background: url("images/page11.png");
+  height: 40vw;
+  width: 60vw;
+  margin-top: 20vh;
+  margin-left: 23vw;
+  background: url("images/mockup.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -276,7 +276,7 @@ input[type="checkbox"],
   position: absolute;
   height: 70vh;
   width: 30vw;
-  padding-top: 50vh;
+  padding-top: 45vh;
   margin-left: 10vw;
   color: #000000;
 }
@@ -730,11 +730,18 @@ h2 {
   /* Section 3 */
   /* -------------------------------- */
 
+  .page3-image {
+    height: 45vh;
+    width: 80vw;
+    margin-top: 20vh;
+    margin-left: 15vw;
+  }
+
   .page3-text {
     position: absolute;
     width: 60vw;
     margin-left: 17vw;
-    padding-top: 30vh;
+    padding-top: 45vh;
   }
 
   .page3-text h2 {
