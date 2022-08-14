@@ -243,9 +243,9 @@ input[type="checkbox"],
 
 .page2-ok-button{
   position: relative;
-  width: 3vw;
-  height: 3vw; 
-  background:url(./images/basic_button.png);
+  width: 3.5vw;
+  height: 3.5vw; 
+  background:url(./images/basic_white.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -311,8 +311,8 @@ input[type="checkbox"],
 
 .page3-ok-button{
   position: relative;
-  width: 3vw;
-  height: 3vw; 
+  width: 3.5vw;
+  height: 3.5vw; 
   background:url(./images/basic_button.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -382,8 +382,8 @@ input[type="checkbox"],
 
 .page4-ok-button{
   position: relative;
-  width: 3vw;
-  height: 3vw; 
+  width: 3.5vw;
+  height: 3.5vw; 
   background:url(./images/basic_button.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -520,6 +520,7 @@ h2 {
   font-weight: 700;
   font-size: 20px;
 }
+
 
 .footer ul {
   list-style: none;
