@@ -455,7 +455,7 @@ h2 {
     .hamburger-lines {
         display: block;
         height: 23px;
-        width: 35px;
+        width: 30px;
         position: fixed;
         top: 6vh;
         right: 15vw;
@@ -515,7 +515,7 @@ h2 {
     }
 
     input[type="checkbox"]:checked~.hamburger-lines .line1 {
-        transform: rotate(35deg);
+        transform: rotate(42deg);
     }
 
     input[type="checkbox"]:checked~.hamburger-lines .line2 {
@@ -523,7 +523,7 @@ h2 {
     }
 
     input[type="checkbox"]:checked~.hamburger-lines .line3 {
-        transform: rotate(-35deg);
+        transform: rotate(-42deg);
     }
 
     /* -------------------------------- */
