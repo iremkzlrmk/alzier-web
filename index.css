@@ -141,25 +141,27 @@ input[type="checkbox"],
 
 .page1-text p {
   font-size: 1.2vw;
+  width: 35vw;
 }
 
 .page1-line-button{
   display: flex;
   flex-flow: row wrap;
   align-items:center;
+  margin-top: -2vh;
 }
 
 .page1-line{
   position: relative;
   border-bottom: 1px solid black;
-  width: 27vw;
+  width: 30vw;
   margin-right: 2vw;
 }
 
 .page1-ok-button{
   position: relative;
-  width: 8vw;
-  height: 8vw; 
+  width: 7.5vw;
+  height: 7.5vw; 
   background:url(./images/detailed_button.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -262,9 +264,9 @@ input[type="checkbox"],
 
 .page3-image {
   position: relative;
-  height: 40vw;
-  width: 60vw;
-  margin-top: 20vh;
+  height: 36vw;
+  width: 54vw;
+  margin-top: 13vh;
   margin-left: 23vw;
   background: url("images/mockup.png");
   background-size: cover;
@@ -274,16 +276,16 @@ input[type="checkbox"],
 
 .page3-text {
   position: absolute;
-  height: 70vh;
-  width: 30vw;
-  padding-top: 45vh;
+  height: 60vh;
+  width: 28vw;
+  margin-top: 45vh;
   margin-left: 10vw;
   color: #000000;
 }
 
 
 .page3-text h2 {
-  font-size: 2vw;
+  font-size: 1.7vw;
   line-height: 2vw;
   font-weight: 300;
 }
@@ -529,7 +531,7 @@ h2 {
 }
 
 .footer li {
-  line-height: 2em;
+  line-height: 1.9vw;
   z-index: inherit;
 }
 
@@ -619,7 +621,7 @@ h2 {
     padding: 100px 100px 0 50px;
     background: rgb(0, 0, 0);
     height: 100vh;
-    max-width: 300px;
+    max-width: 20vw;
     transform: translate(300%);
     display: flex;
     flex-direction: column;
@@ -679,6 +681,11 @@ h2 {
     font-size: 4vmin;
     line-height: 4vh;
     color: #000000;
+    width: 70vw;
+  }
+
+  .page1-line-button{
+    margin-top: 3vh;
   }
 
   .page1-line {
@@ -732,17 +739,17 @@ h2 {
   /* -------------------------------- */
 
   .page3-image {
-    height: 45vh;
-    width: 80vw;
+    height: 40vh;
+    width: 70vw;
     margin-top: 20vh;
-    margin-left: 15vw;
+    margin-left: 20vw;
   }
 
   .page3-text {
     position: absolute;
     width: 60vw;
     margin-left: 17vw;
-    padding-top: 45vh;
+    /* padding-top: 0vh; */
   }
 
   .page3-text h2 {
@@ -769,14 +776,14 @@ h2 {
 
   .page4-image {
     width: 100%;
-    margin-top: 7vh;
+    /* margin-top: 7vh; */
     margin-left: -10vw;
   }
 
   .page4-text {
     position: absolute;
     width: 60vw;
-    margin-left: 17vw;
+    margin-left: 15vw;
     padding-top: 70vh;
     color: #000000;
   }

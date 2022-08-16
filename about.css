@@ -120,7 +120,7 @@ input[type="checkbox"],
     height: 70%;
     width: 100%;
     padding-left: 20vw;
-    padding-top: 20vh;
+    padding-top: 18vh;
     position: absolute;
     margin: auto 0;
     color: #000000;
@@ -202,7 +202,7 @@ input[type="checkbox"],
     height: 70%;
     width: 90%;
     margin-left: 10vw;
-    padding-top: 7vw;
+    padding-top: 5vw;
     position: absolute;
     color: #000000;
 }
@@ -293,14 +293,6 @@ input[type="checkbox"],
     margin-top: -5vh;
 }
 
-.page3-text h2 {
-    font-size: 1.5vw;
-    font-weight: 700;
-    line-height: 50px;
-    margin-bottom: -0.5rem;
-}
-
-
 .line-paragraph1 {
     display: flex;
     margin-right: 3vw;
@@ -313,11 +305,19 @@ input[type="checkbox"],
     margin-top: 5vh;
 }
 
+.page3-text h2 {
+    font-size: 1.5vw;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: -0.5rem;
+}
+
 .page3-text p {
     width: 35vw;
     font-size: 1vw;
     font-weight: 300;
     line-height: 1.5rem;
+    text-align: justify;
 }
 
 /* hr {
@@ -557,7 +557,7 @@ h2 {
         width: 80vw;
         /* margin-left: 0%; */
         font-size: 1.8vh;
-        line-height: 2.5vw;
+        line-height: 3vw;
         margin-bottom: 3vh;
     }
 
@@ -589,7 +589,7 @@ h2 {
         width: 40vw;
         width: 80vw;
         /* width: auto;   if u wanna stack them on top of each other */ 
-        font-size: 2vw;
+        font-size: 1.5vh;
         line-height: 3vw;
     }
 
@@ -617,7 +617,7 @@ h2 {
     }
 
     .page3-line{
-        height: 19vw;
+        height: 17vh;
     }
 
     .page3-text h2{
@@ -630,19 +630,19 @@ h2 {
     .line-paragraph1{
         display: flex;
         margin-right: 2vw;
-        margin-top: -10vh;
+        margin-top: -18vh;
     }
 
     .line-paragraph2{
         display: flex;
         margin-right: 2vw;
-        margin-top: -30vh;
+        margin-top: -33vh;
     }
 
     .page3-text p{
         width: 80vw;
-        font-size: 1.6vw;
-        line-height: 2vw;
+        font-size: 1.5vh;
+        line-height: 1.5vh;
     }
 
     .footer {
