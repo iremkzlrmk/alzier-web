@@ -317,7 +317,7 @@ input[type="checkbox"],
     font-size: 1vw;
     font-weight: 300;
     line-height: 1.5rem;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 /* hr {
