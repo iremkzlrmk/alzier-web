@@ -59,16 +59,16 @@ input[type="checkbox"],
     align-items: flex-start;
     list-style: none;
     margin-right: 3%;
-    margin-top: 2.5rem;
-    height: 8vh;
+    /* margin-top: 2.1rem; */
+    height: 10vh;
     font-family: ppf;
     font-weight: 300;
-    font-size: 1.5vw;
-}
+    font-size: 1.3vw;
+  }
 
 .nav-item {
     margin: 2vw;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .nav-item a {
@@ -79,9 +79,9 @@ input[type="checkbox"],
 #logo {
     position: absolute;
     left: 4rem;
-    top: 30%;
-    height: 50px;
-    width: 260px;
+    top: 34%;
+    height: 40px;
+    width: 208px;
     background: center / cover no-repeat url("images/logo.png");
 }
 
@@ -418,7 +418,8 @@ h2 {
 
 @media screen and (max-width: 1000px) {
     #logo {
-        left: -2rem;
+        left: 0rem;
+        top: 3.5vh;
         /* width: 20rem; */
         /* top: 4vh; */
         transform: scale(0.6);
@@ -446,7 +447,7 @@ h2 {
         display: block;
         height: 32px;
         width: 30px;
-        top: 6vh;
+        top: 4.5vh;
         right: 15vw;
         z-index: 5;
         opacity: 0;
@@ -457,7 +458,7 @@ h2 {
         height: 23px;
         width: 30px;
         position: fixed;
-        top: 6vh;
+        top: 4.5vh;
         right: 15vw;
         z-index: 2;
         display: flex;
@@ -467,10 +468,10 @@ h2 {
 
     .hamburger-lines .line {
         display: block;
-        height: 4px;
+        height: 3px;
         width: 100%;
         border-radius: 10px;
-        background: #333;
+        background: white;
     }
 
     .hamburger-lines .line1 {
@@ -576,12 +577,12 @@ h2 {
     }
 
     .page2-text h2 {
-        font-size: 3vw;
+        font-size: 4vw;
         /* line-height: 1vw; */
     }
 
     .page2-line{
-        margin-top: -5vh;
+        margin-top: -4vh;
         /* margin: 0px; */
     }
 
