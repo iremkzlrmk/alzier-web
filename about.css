@@ -426,6 +426,10 @@ h2 {
         background-size: cover;
     }
 
+    .nav{
+        height: 11.5vh;
+    }
+
     .nav-item,
     .page1-horizontal,
     .page1-vertical {
