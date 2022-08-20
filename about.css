@@ -562,7 +562,7 @@ h2 {
         width: 80vw;
         /* margin-left: 0%; */
         font-size: 1.8vh;
-        line-height: 3vw;
+        line-height: 2vh;
         margin-bottom: 3vh;
     }
 
@@ -595,7 +595,7 @@ h2 {
         width: 80vw;
         /* width: auto;   if u wanna stack them on top of each other */ 
         font-size: 1.5vh;
-        line-height: 3vw;
+        line-height: 2vh;
     }
 
     
