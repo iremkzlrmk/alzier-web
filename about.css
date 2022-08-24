@@ -64,7 +64,7 @@ input[type="checkbox"],
     font-family: ppf;
     font-weight: 300;
     font-size: 1.3vw;
-  }
+}
 
 .nav-item {
     margin: 2vw;
@@ -133,7 +133,7 @@ input[type="checkbox"],
     margin-left: 0vw;
 }
 
-.paragraphs{
+.paragraphs {
     display: flex;
     flex-flow: row wrap;
 }
@@ -265,29 +265,29 @@ input[type="checkbox"],
     margin-top: 1vh;
 }
 
-.icon1{
+.icon1 {
     position: relative;
     width: 40px;
-    height: 60px; 
-    background:url(./images/lock_white.png);
+    height: 60px;
+    background: url(./images/lock_white.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     margin-left: -1.3vw;
 }
 
-.icon2{
+.icon2 {
     position: relative;
     width: 67px;
-    height: 63px; 
-    background:url(./images/recycle_white.png);
+    height: 63px;
+    background: url(./images/recycle_white.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     margin-left: -2.3vw;
 }
 
-.line-icon{
+.line-icon {
     display: flex;
     flex-flow: column wrap;
     margin-top: -5vh;
@@ -342,23 +342,23 @@ input[type="checkbox"],
     background-color: #000000;
     width: 80vw;
     height: 35vh;
-    margin-top: 65vh;
+    margin-top: 66vh;
     margin-left: 10vw;
     /* padding-top: 1vh; */
     z-index: 3;
 }
 
-.footer-logo{
+.footer-logo {
     position: relative;
     left: 7vw;
     /* top: 30%; */
-    height: 28px; 
-    width: 147px; 
+    height: 28px;
+    width: 147px;
     top: 3vh;
     background: center / cover no-repeat url("images/logo.png");
-  }
+}
 
-.footer-line{
+.footer-line {
     position: relative;
     border-bottom: 0.01vw solid #ffffff;
     width: 66vw;
@@ -426,7 +426,7 @@ h2 {
         background-size: cover;
     }
 
-    .nav{
+    .nav {
         height: 11.5vh;
     }
 
@@ -570,7 +570,7 @@ h2 {
     /* Section 2 */
     /* -------------------------------- */
 
-    
+
     .page2-text {
         position: absolute;
         /* margin-left: 80%; */
@@ -585,66 +585,66 @@ h2 {
         /* line-height: 1vw; */
     }
 
-    .page2-line{
+    .page2-line {
         margin-top: -4vh;
         /* margin: 0px; */
     }
 
-    .page2-text p{
+    .page2-text p {
         width: 40vw;
         width: 80vw;
-        /* width: auto;   if u wanna stack them on top of each other */ 
+        /* width: auto;   if u wanna stack them on top of each other */
         font-size: 1.5vh;
         line-height: 2vh;
     }
 
-    
+
     /* -------------------------------- */
     /* Section 3 */
     /* -------------------------------- */
 
 
-    .page3-text{
+    .page3-text {
         margin-top: -30vh;
         width: 90vw;
     }
 
-    .icon1{
+    .icon1 {
         width: 4vw;
         height: 6vw;
         margin-left: -2vw;
     }
 
-    .icon2{
+    .icon2 {
         width: 6.4vw;
         height: 6vw;
         margin-left: -3vw;
     }
 
-    .page3-line{
+    .page3-line {
         height: 17vh;
     }
 
-    .page3-text h2{
+    .page3-text h2 {
         font-size: 2.5vw;
         width: 35vw;
         line-height: 2.3vw;
         margin-bottom: 1vw;
     }
 
-    .line-paragraph1{
+    .line-paragraph1 {
         display: flex;
         margin-right: 2vw;
         margin-top: -18vh;
     }
 
-    .line-paragraph2{
+    .line-paragraph2 {
         display: flex;
         margin-right: 2vw;
         margin-top: -33vh;
     }
 
-    .page3-text p{
+    .page3-text p {
         width: 80vw;
         font-size: 1.5vh;
         line-height: 1.5vh;
@@ -657,26 +657,26 @@ h2 {
         z-index: 3;
     }
     
-    .footer-logo{
+    .footer-logo {
         position: relative;
         left: 7vw;
         /* top: 30%; */
-        height: 20px; 
-        width: 105px; 
+        height: 20px;
+        width: 105px;
         top: 3vh;
         background: center / cover no-repeat url("images/logo.png");
-      }
+    }
 
     h2 {
         font-weight: 700;
         font-size: 2vw;
     }
-    
+
     .footer li {
         line-height: 3vw;
         z-index: inherit;
     }
-    
+
     .footer a {
         font-size: 1.5vw;
         text-decoration: none;
