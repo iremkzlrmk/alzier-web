@@ -759,14 +759,15 @@ h2 {
 	.page3-image {
 		height: 40vh;
 		width: 70vw;
-		margin-top: 20vh;
+		margin-top: -20vh;
 		margin-left: 20vw;
 	}
 
 	.page3-text {
 		position: absolute;
 		width: 60vw;
-		margin-left: 17vw;
+		margin-left: 12vw;
+		margin-top: 50vh;
 		/* padding-top: 0vh; */
 	}
 
@@ -802,8 +803,8 @@ h2 {
 	.page4-text {
 		position: absolute;
 		width: 60vw;
-		margin-left: 15vw;
-		padding-top: 70vh;
+		margin-left: 12vw;
+		padding-top: 72vh;
 		color: #000000;
 	}
 
