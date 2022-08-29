@@ -278,8 +278,8 @@ input[type="checkbox"],
 
 .icon2 {
     position: relative;
-    width: 67px;
-    height: 63px;
+    width: 63px;
+    height: 59px;
     background: url(./images/recycle_white.png);
     background-size: cover;
     background-repeat: no-repeat;
