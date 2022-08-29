@@ -162,8 +162,8 @@ input[type="checkbox"],
     height: 100%;
     width: 100%;
     background: center / cover no-repeat url("images/gradient_orange.png");
-    margin-top: 9vh;
-    margin-left: 0vw;
+    margin-top: 0vh;
+    margin-left: 10vw;
     /* opacity: 1; */
 }
 
