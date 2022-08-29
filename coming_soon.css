@@ -341,10 +341,11 @@ input[type="checkbox"],
     /* Section 1 */
     /* -------------------------------- */
 
-    .page1-image {
+    .page1-image1 {
         width: 100vw;
         margin: auto;
         height: 100vh;
+        /* left: -20vw; */
     }
 
     .page1-text {
