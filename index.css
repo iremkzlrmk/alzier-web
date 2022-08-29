@@ -129,7 +129,7 @@ input[type="checkbox"],
 	width: 90%;
 	margin-top: 9vh;
 	margin-left: 30vw;
-	background: center / cover no-repeat url("images/woman.png");
+	background: center / cover no-repeat url("images/woman-min.png");
 }
 
 .page1-text {
@@ -209,7 +209,7 @@ input[type="checkbox"],
 }
 
 .page2-image {
-	background: center / cover no-repeat url("images/people.png");
+	background: center / cover no-repeat url("images/people-min.png");
 	height: 100%;
 	width: 100%;
 	margin-top: 7vh;
@@ -274,11 +274,11 @@ input[type="checkbox"],
 
 .page3-image {
 	position: relative;
-	height: 48vw;
-	width: 72vw;
+	height: 36vw;
+	width: 54vw;
 	margin-top: 17vh;
-	margin-left: 35vw;
-	background: url("images/mockup.png");
+	margin-left: 42vw;
+	background: url("images/mockup-min.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -288,7 +288,7 @@ input[type="checkbox"],
 	position: absolute;
 	height: 60vh;
 	width: 30vw;
-	margin-top: 45vh;
+	margin-top: 35vh;
 	margin-left: 10vw;
 	color: #000000;
 }
@@ -342,7 +342,7 @@ input[type="checkbox"],
 }
 
 .page4-image {
-	background: url("images/world_cropped.png");
+	background: url("images/world_cropped-min.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -678,7 +678,7 @@ h2 {
 		margin-left: 5vw;
 		height: 85vh;
 		width: 80vw;
-		background: url(images/gradient.png);
+		background: url(images/gradient-min.png);
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;

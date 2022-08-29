@@ -111,7 +111,7 @@ input[type="checkbox"],
 .page1-image {
     height: 100%;
     width: 90%;
-    background: center / cover no-repeat url("images/gradient.png");
+    background: center / cover no-repeat url("images/gradient-min.png");
     margin-top: 9vh;
     margin-left: 30vw;
 }
