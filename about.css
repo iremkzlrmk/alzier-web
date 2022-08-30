@@ -120,20 +120,14 @@ input[type="checkbox"],
     display: block;
   }
 
-.inspector{
-    margin-top: 3px;
-    height: 20px;
-    width: 20px;
-    background: center / cover no-repeat url("images/inspector.png");
-}
 
 
 #logo {
     position: absolute;
     left: 4rem;
     top: 34%;
-    height: 40px;
-    width: 208px;
+	height: 37px;
+	width: 192.4px;
     background: center / cover no-repeat url("images/logo.png");
 }
 
@@ -205,7 +199,7 @@ input[type="checkbox"],
 }
 
 .page1-text p {
-    font-size: 1.15vw;
+    font-size: 1vw;
     font-weight: 300;
     line-height: 1.5rem;
     width: 35vw;

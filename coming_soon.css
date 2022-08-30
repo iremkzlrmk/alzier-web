@@ -130,8 +130,8 @@ input[type="checkbox"],
     position: absolute;
     left: 4rem;
     top: 34%;
-    height: 40px;
-    width: 208px;
+	height: 37px;
+	width: 192.4px;
     background: center / cover no-repeat url("images/logo.png");
 }
 

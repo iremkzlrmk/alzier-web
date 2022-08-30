@@ -135,8 +135,8 @@ input[type="checkbox"],
 	position: absolute;
 	left: 4rem;
 	top: 34%;
-	height: 40px;
-	width: 208px;
+	height: 37px;
+	width: 192.4px;
 	background: center / cover no-repeat url("images/logo.png");
 }
 
@@ -223,13 +223,35 @@ input[type="checkbox"],
 	position: relative;
 	width: 7.5vw;
 	height: 7.5vw;
-	background: url(./images/detailed_button.png);
+	background: url(./images/arrow_black.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
-/* .page1-ok-button:hover{
+.page1-ok-button-text{
+	display: flex;
+	flex-flow: column;
+	position: relative;
+	width: 7.5vw;
+	height: 7.5vw;
+	background: url(./images/hoop_detailed.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* .page1-ok-button-arrow {
+	position: relative;
+	width: 3vw;
+	height: 0.5vw;
+	background: url(./images/arrow_black.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+} */
+
+.page1-ok-button-text:hover{
   -webkit-animation:spin 8s linear infinite;
     -moz-animation:spin 8s linear infinite;
     animation:spin 8s linear infinite;
@@ -237,7 +259,7 @@ input[type="checkbox"],
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } } */
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 
 .page1-horizontal {
@@ -280,7 +302,7 @@ input[type="checkbox"],
 
 .page2-text h2 {
 	font-size: 2vw;
-	line-height: 2vw;
+	line-height: 2.1vw;
 	font-weight: 300;
 }
 
@@ -339,8 +361,8 @@ input[type="checkbox"],
 .page3-text {
 	position: absolute;
 	height: 60vh;
-	width: 30vw;
-	margin-top: 35vh;
+	width: 38vw;
+	margin-top: 40vh;
 	margin-left: 10vw;
 	color: #000000;
 }
@@ -411,7 +433,7 @@ input[type="checkbox"],
 	position: absolute;
 	height: 70vh;
 	width: 40vw;
-	padding-top: 65vh;
+	padding-top: 68vh;
 	margin-left: 10vw;
 	color: #000000;
 	z-index: 3;
