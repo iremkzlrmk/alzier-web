@@ -44,6 +44,14 @@ input[type="checkbox"],
     display: none;
 }
 
+@media screen and (min-width: 1000px) {
+
+	.footer-mobile-text{
+		display: none;
+	}
+
+}
+
 .nav {
     background-color: rgb(0, 0, 0);
     position: fixed;
@@ -119,8 +127,6 @@ input[type="checkbox"],
   .show {
     display: block;
   }
-
-
 
 #logo {
     position: absolute;
@@ -463,22 +469,23 @@ h2 {
 /* -------------------------------- */
 
 @media screen and (max-width: 1000px) {
+
     #logo {
         left: 0rem;
         top: 3.5vh;
-        /* width: 20rem; */
-        /* top: 4vh; */
         transform: scale(0.6);
         background-size: cover;
     }
-
+ 
     .nav {
-        height: 11.5vh;
+        width: 100vw;
+        left: 0vw;
     }
 
     .nav-item,
     .page1-horizontal,
-    .page1-vertical {
+    .page1-vertical,
+    .footer {
         display: none;
     }
 
@@ -695,7 +702,7 @@ h2 {
         font-size: 1.5vh;
         line-height: 1.5vh;
     }
-
+/* 
     .footer {
         margin-top: 70vh;
         padding-top: 1vh;
@@ -706,7 +713,6 @@ h2 {
     .footer-logo {
         position: relative;
         left: 7vw;
-        /* top: 30%; */
         height: 20px;
         width: 105px;
         top: 3vh;
@@ -728,7 +734,31 @@ h2 {
         text-decoration: none;
         color: #ffffff;
         z-index: inherit;
-    }
+    } */
 
+    .footer-mobile {
+		color: #ffffff;
+		background-color: #000000;
+		width: 100vw;
+		height: 35vh;
+		margin-top: 66vh;
+		margin-left: 0vw;
+		/* padding-top: 1vh; */
+		z-index: 3;
+	}
+
+	.footer-mobile-text{
+		color: #FFFFFF;
+		text-align: center;
+		padding-top: 10vh;
+	}
+
+    .web {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
 
 }

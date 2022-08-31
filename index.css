@@ -123,14 +123,6 @@ input[type="checkbox"],
     display: block;
   }
 
-.inspector{
-    margin-top: 3px;
-    height: 20px;
-    width: 20px;
-    background: center / cover no-repeat url("images/inspector.png");
-}
-
-
 #logo {
 	position: absolute;
 	left: 4rem;
@@ -645,10 +637,10 @@ h2 {
 		background-size: cover;
 	}
 
-	/* .nav{
+	.nav{
     width: 100vw;
     left: 0vw;
-  } */
+  	} 
 
 	.nav-item,
 	.page1-horizontal,
@@ -940,16 +932,16 @@ h2 {
 	.footer-mobile {
 		color: #ffffff;
 		background-color: #000000;
-		width: 80vw;
+		width: 100vw;
 		height: 35vh;
 		margin-top: 66vh;
-		margin-left: 10vw;
+		margin-left: 0vw;
 		/* padding-top: 1vh; */
 		z-index: 3;
 	}
 
 	.footer-mobile-text{
-		color: #4e4e4e;
+		color: #FFFFFF;
 		text-align: center;
 		padding-top: 10vh;
 	}
@@ -1008,8 +1000,4 @@ h2 {
 		left: 1rem;
 	}
 
-	/* 
-  #section4 {
-    margin-top: 10rem;
-  } */
 }
